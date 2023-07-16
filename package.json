@@ -9,7 +9,7 @@
     "start": "node server",
     "client": "cd client && npm run dev",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build":"npm i"
+    "build":"npm install"
   },
   "author": "Samuel",
   "license": "MIT",
